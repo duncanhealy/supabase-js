@@ -1,0 +1,6 @@
+pnpm exec commitlint --edit $1 || {
+  echo ""
+  echo "💡 Tip: Use 'pnpm commit' for guided commits!"
+  echo ""
+  exit 1
+}
